@@ -1,0 +1,11 @@
+upstream frontend {
+        server  18.234.192.97;
+        server  107.23.242.170;
+    }
+
+server {
+   listen 80;
+   location / {
+      proxy_pass http://frontend;
+   }
+}
