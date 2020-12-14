@@ -8,8 +8,8 @@
 set -x
 
 # Actualizamos los repositorios
-apt-get update -y
-apt update -y
+#apt-get update -y
+#apt update -y
 
 # Instalamos nginx
 apt-get install nginx -y
